@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// creating the struct for book, in real life this would probably be a databse elsewhere
 type Book struct {
 	ID            int
 	Title         string
